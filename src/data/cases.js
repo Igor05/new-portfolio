@@ -42,22 +42,25 @@ export const cases = [
       'Demo-request conversion rose from 0.9% to 3.4% in the first month. The Kvitka Lab team now adds new blocks to the site themselves from a ready component library. Time spent aligning design with investors dropped — the site is now something they can just link to.',
   },
   {
-    slug: 'northbound',
+    slug: 'nightdesk',
     index: '03',
-    title: 'Northbound',
-    category: 'Travel · Guided Tours',
+    title: 'Nightdesk',
+    category: 'SaaS · AI Ticket Triage',
     tone: 'ochre',
-    year: 2024,
+    year: 2026,
     duration: '7 days',
-    process: "Processed the agency's photo archive — cropping, compression, alt text — then built the grid and page rhythm by hand.",
-    summary: 'A tour catalog that sells premium routes better than Instagram did.',
-    stat: { value: '+20%', label: 'average booking value' },
+    cover: '/cases/nightdesk/cover.jpg',
+    detailImages: ['/cases/nightdesk/night-log.jpg', '/cases/nightdesk/pricing.jpg'],
+    process:
+      'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the ticket-log and auto-send toggle interactions, tuned the type system, and hand-finished the accessibility work.',
+    summary: 'A dark, monospace-driven site that makes overnight AI ticket triage feel controllable, not automatic.',
+    stat: { value: '8', label: 'sections, fully responsive & accessible' },
     problem:
-      "A small travel agency sold custom-designed tours across Russia's north through Instagram, but couldn't collect bookings systematically — conversations got lost, and there was no budget for a website at all. The founders wanted something that looked expensive but was reasonable to build.",
+      "Nightdesk triages Shopify support tickets overnight and drafts replies before the store opens — a pitch that only works if the owner trusts it not to go rogue. The real design problem wasn't explaining what the AI does; it was proving, visually and immediately, that nothing gets sent without permission. A dense, data-heavy product like this also risked reading as a generic dark-mode SaaS dashboard instead of something built for one specific, sleep-deprived audience.",
     solution:
-      "We built a site centered on route photography with a clear structure — destination → dates → inquiry. Processing the agency's large photo archive for the web — cropping, compression, alt text — happened fast, which left time to build the grid and page rhythm by hand. A single inquiry form with no unnecessary fields lands directly in the agency's inbox.",
+      "The design commits fully to a \"night shift\" identity: a dark ink-and-amber palette, monospace timestamps and ticket IDs, and a live overnight ticket feed right in the hero so the product is showing, not telling, from the first screen. The trust question gets its own interactive section — real auto-send toggles the visitor can flip, with escalations locked to \"never automatic\" as a fixed row. An AI agent drafted the section scaffolding and first-pass copy from a content outline; the designer built the ticket-log and toggle interactions, tuned the type system, and hand-finished the accessibility work — focus rings, aria-expanded FAQ panels, a properly labeled contact form.",
     result:
-      'The agency stopped losing inquiries in scattered chats — everything now arrives in one place. Average booking value through the site is 20% higher than direct-message bookings on social media: the site sells premium tours better. Preparing the photo archive, which would have taken a designer a week, took two days.',
+      'The result is a full eight-section site — hero, problem framing, a four-step explainer, a real composite night-log of 12 tickets, an interactive trust panel, tiered pricing, FAQ, and a contact form — built solo, with no template. Every interactive element (toggles, accordion, nav) is keyboard-operable with a visible focus state, and all motion — the blinking status dot, the ticket carousel, the FAQ expand — respects reduced-motion preferences. This one is explicitly a design case study rather than a live product, so the site says so in its own footer.',
   },
   {
     slug: 'field-and-co',
