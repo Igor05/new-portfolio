@@ -4,4 +4,5 @@ export const TONE_BG = {
   clay: 'bg-clay',
   ochre: 'bg-ochre',
   plum: 'bg-plum',
+  rust: 'bg-rust',
 }

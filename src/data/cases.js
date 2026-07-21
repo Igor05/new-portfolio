@@ -24,22 +24,25 @@ export const cases = [
       'The result is a full nine-section marketing site — hero, problem framing, a three-step explainer, live example replies, a feature grid, tiered pricing, testimonials, FAQ, and a contact form — that reads as a considered product rather than a generic template, which was the real test for a pitch this easy to distrust. Every interactive element has a visible focus state, motion respects reduced-motion preferences, and every form field is properly labeled. Built and shipped solo, with no page builder or template involved.',
   },
   {
-    slug: 'kvitka-lab',
+    slug: 'docket',
     index: '02',
-    title: 'Kvitka Lab',
-    category: 'SaaS · Florist CRM',
-    tone: 'clay',
-    year: 2025,
-    duration: '9 days',
-    process: 'Drafted the landing blocks straight from team interviews, then rewrote the headlines and built the component system by hand.',
-    summary: 'A landing page that lifted demo conversion from 0.9% to 3.4%.',
-    stat: { value: '×3.7', label: 'increase in demo conversion' },
+    title: 'Docket',
+    category: 'SaaS · AI Change Documentation',
+    tone: 'rust',
+    year: 2026,
+    duration: '5 days',
+    cover: '/cases/docket/cover.jpg',
+    detailImages: ['/cases/docket/docket-log.jpg', '/cases/docket/pricing.jpg'],
+    process:
+      'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the docket-log and publish-rule toggle interactions, tuned the type system, and hand-finished the accessibility work.',
+    summary: 'A ledger-inspired site that makes "AI writes your changelog" read as precise, not automated.',
+    stat: { value: '8', label: 'sections, fully responsive & accessible' },
     problem:
-      "Kvitka Lab is a platform for flower shops that used to run orders through spreadsheets and messaging apps. The product was ready, but the landing page didn't explain what it actually solved, and demo-call conversion was under 1%. The team needed to present a fairly complex product simply, without crowding every screen.",
+      "Docket drafts changelog entries and Help Center redlines straight from merged code — a pitch aimed at small product teams with no dedicated technical writer, who are exactly the audience most nervous about anything publishing to customers on its own. The site couldn't just claim accuracy; it had to demonstrate, section by section, that nothing reaches a customer-facing article without a rule saying it can. A generic SaaS-template look would have undercut that claim before a single word was read.",
     solution:
-      'We built the landing page around a single scenario — "from order to delivery in three clicks" — and cut everything that didn\'t serve that story. The first pass of blocks came straight out of interviews with the team; from there we rewrote the headlines and assembled a component system for future product updates. Real product screenshots replaced abstract icons, so visitors could see the actual product right away.',
+      'The design commits to a registry metaphor instead of a dashboard one: ruled "ledger" paper, a serif built for record-keeping, monospace timestamps and PR numbers, and a single sealing-red accent reserved for the one state that matters — items still waiting on a human. A live docket panel sits in the hero showing real entries being filed, and a dedicated trust section lets visitors flip the actual per-document-type publish toggles, with pricing and permissions locked as a fixed, non-toggleable row. An AI agent drafted the section scaffolding and first-pass copy from a content outline; the designer built the docket-log and toggle interactions, tuned the type system, and hand-finished the accessibility work — focus rings, aria-expanded FAQ panels, a properly labeled contact form.',
     result:
-      'Demo-request conversion rose from 0.9% to 3.4% in the first month. The Kvitka Lab team now adds new blocks to the site themselves from a ready component library. Time spent aligning design with investors dropped — the site is now something they can just link to.',
+      'The result is a full eight-section site — hero, problem framing, a four-step explainer, a real filed-release table of 7 changes, an interactive trust panel, tiered pricing, FAQ, and a contact form — built solo, with no template. Every interactive element (toggles, accordion, nav, rotating docket panel) is keyboard-operable with a visible focus state, and all motion respects reduced-motion preferences. This one is explicitly a design case study rather than a live product, so the site says so in its own footer.',
   },
   {
     slug: 'nightdesk',
