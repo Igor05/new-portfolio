@@ -87,22 +87,25 @@ export const cases = [
       "The result is a full seven-section site — hero, problem framing, an interactive how-it-works demo, four flagged clause categories, a philosophy section on where the tool stops, an audience split, and a contact form with file upload — built solo, with no template. Every interactive element (clause marks, reveal animations, file input) respects reduced-motion preferences and works from the keyboard alone. Like the others, it's a design case study rather than a live product — the site says so itself, in its own footer note.",
   },
   {
-    slug: 'doclyne',
+    slug: 'verbatim',
     index: '05',
-    title: 'Doclyne',
-    category: 'Healthtech · Doctor Booking',
+    title: 'Verbatim',
+    category: 'SaaS · AI Interview Screening',
     tone: 'clay',
-    year: 2024,
-    duration: '8 days',
-    process: 'Structured the data for 40+ doctors into one format and drafted the profiles, then worked out the trust-building states by hand.',
-    summary: 'Booking a doctor in three steps instead of a phone call to reception.',
-    stat: { value: '+58%', label: 'completed bookings' },
+    year: 2026,
+    duration: '6 days',
+    cover: '/cases/verbatim/cover.jpg',
+    detailImages: ['/cases/verbatim/the-call.jpg', '/cases/verbatim/division-of-labor.jpg'],
+    process:
+      'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the dual-track transcript layout, the scrubber and decision-logging interactions, and hand-finished the accessibility work.',
+    summary: 'A dual-track transcript layout that makes an AI call-screener feel like a second reader, not a decision-maker.',
+    stat: { value: '6', label: 'sections, fully responsive & accessible' },
     problem:
-      'Doclyne is an online booking service for private doctors. A healthcare product needs to earn trust from the first screen, but the previous site looked like a generic SaaS landing page and lost patients right at doctor selection: a feed of 40+ cards with no filters overwhelmed people instead of helping them.',
+      "Verbatim reads a candidate's résumé against their screening-call recording and flags what lines up and what doesn't — a pitch that collapses instantly if it reads as the AI quietly ranking or rejecting people. Recruiting agencies pitch clients on judgment, not automation, so the site had to prove one structural fact before anything else: the tool never sees or touches the hire/no-hire decision, and the recruiter's own reasoning stays entirely separate from the AI's.",
     solution:
-      'We designed a step-by-step doctor selection flow — specialty → area → time — instead of one long card feed. Structuring the data for 40+ doctors into a single format and drafting the initial profiles happened fast, which left room to work out the trust-building states — photos, credentials, reviews — written in plain language instead of medical boilerplate. Booking takes three steps and confirms right in the interface, no call to reception required.',
+      "The whole layout is built as two literal side-by-side tracks — Verbatim's read on the left, the recruiter's own track on the right — carried from the hero all the way through the call transcript and the decision panel, so the separation is structural, not a caption explaining it. The transcript itself is a real annotated call: three cited notes dropped only where something concrete backs them up, reachable through a clickable scrubber, while the decision panel next to it is a plain button group the AI provably never sees or pre-fills. An AI agent drafted the section scaffolding and first-pass copy from a content outline; the designer built the dual-track grid, the scrubber and note interactions, and hand-finished the accessibility work — every mark and outcome button is a real focusable control with proper aria state, not a hover-only effect.",
     result:
-      'Completed bookings through the site rose 58% within two months of launch. Average time to choose a doctor dropped from 6 minutes to 90 seconds. The clinic was able to let go of one of its two phone-booking receptionists.',
+      "The result is a full six-section site — hero, an interactive annotated call transcript with scrubber, a division-of-labor breakdown, an audience-fit section, and a contact form with file upload — built solo, with no template. Every interactive element (scrubber marks, decision buttons, file input) is keyboard-operable with a visible focus state, and all motion respects reduced-motion preferences. Like the others, it's a design case study rather than a live product — the site says so itself, in its own footer note.",
   },
   {
     slug: 'field-and-co',
