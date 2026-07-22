@@ -84,22 +84,25 @@ export const cases = [
       'Direct site sales grew 40% in the first quarter, as some buyers deliberately moved from marketplaces to the brand\'s own site. Checkout abandonment nearly halved after cutting the steps. The brand recouped the cost of the site within two months of marketplace-commission savings.',
   },
   {
-    slug: 'rently',
+    slug: 'aside',
     index: '05',
-    title: 'Rently',
-    category: 'Real Estate · Rentals',
+    title: 'Aside',
+    category: 'SaaS · AI Contract Review',
     tone: 'moss',
-    year: 2025,
-    duration: '10 days',
-    process: 'Audited the old page structure, proposed a new sitemap, then designed the actual screens and interactions by hand.',
-    summary: 'A mobile home search that loads three times faster.',
-    stat: { value: '1.6s', label: 'mobile load time' },
+    year: 2026,
+    duration: '8 days',
+    cover: '/cases/aside/cover.jpg',
+    detailImages: ['/cases/aside/how-it-works.jpg', '/cases/aside/risk-categories.jpg'],
+    process:
+      'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the document/margin-note grid, the clause-highlighting interactions, and hand-finished the accessibility work.',
+    summary: 'A margin-notes layout that makes AI contract review feel like a second pair of eyes, not a disclaimer generator.',
+    stat: { value: '7', label: 'sections, fully responsive & accessible' },
     problem:
-      'Rently is a long-term apartment rental service that cuts out agents. Its listings database already worked well, but the old site loaded slowly and worked poorly on phones, which sent 70% of its traffic. Users abandoned search before ever reaching the filters.',
+      "Aside reads freelance contracts and flags the clauses that quietly cost solo freelancers money — a pitch that lives or dies on whether the flagged language actually reads as useful, not as a generic legal-disclaimer wall of text. The design problem was structural: a product about reading contracts closely couldn't just describe that idea in a normal feature-grid layout, or the site would undercut its own pitch before a visitor read a word of it.",
     solution:
-      'We rebuilt the search interface mobile-first: filters, map, and listings all work one-handed, with no horizontal scrolling. A quick audit of the old page structure led to a new sitemap, then to designing the actual screens and interactions. Listing details load independently from the map, so the list stays fast even on a weak connection.',
+      "The whole site borrows the grammar of an annotated document instead of a SaaS dashboard: a content column paired with a narrow margin column of tilted notes in the AI's own voice, a highlighter-style mark that sweeps across risky phrases on scroll or focus, and an interactive clause demo where hovering or tabbing through a real contract clause swaps in a matching note and risk tag. An AI agent drafted the section scaffolding and first-pass copy from a content outline; the designer built the document/margin-note grid, the highlight and clause-selection interactions, and hand-finished the accessibility work — every interactive mark is a real focusable button with aria-pressed state, not a hover-only effect.",
     result:
-      'Homepage load time on mobile dropped from 4.8 to 1.6 seconds. The share of users reaching a listing detail page rose 35%. The mobile bounce rate fell by almost a third.',
+      "The result is a full seven-section site — hero, problem framing, an interactive how-it-works demo, four flagged clause categories, a philosophy section on where the tool stops, an audience split, and a contact form with file upload — built solo, with no template. Every interactive element (clause marks, reveal animations, file input) respects reduced-motion preferences and works from the keyboard alone. Like the others, it's a design case study rather than a live product — the site says so itself, in its own footer note.",
   },
   {
     slug: 'doclyne',
