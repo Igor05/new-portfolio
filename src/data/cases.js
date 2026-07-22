@@ -66,26 +66,8 @@ export const cases = [
       'The result is a full eight-section site — hero, problem framing, a four-step explainer, a real composite night-log of 12 tickets, an interactive trust panel, tiered pricing, FAQ, and a contact form — built solo, with no template. Every interactive element (toggles, accordion, nav) is keyboard-operable with a visible focus state, and all motion — the blinking status dot, the ticket carousel, the FAQ expand — respects reduced-motion preferences. This one is explicitly a design case study rather than a live product, so the site says so in its own footer.',
   },
   {
-    slug: 'field-and-co',
-    index: '04',
-    title: 'Field & Co',
-    category: 'E-commerce · Apparel',
-    tone: 'plum',
-    year: 2024,
-    duration: '12 days',
-    process: "Built a first draft of the catalog straight from the brand's price list, then refined every spacing value and cart state by hand.",
-    summary: 'A catalog and checkout that brought 40% of sales back from marketplaces.',
-    stat: { value: '+40%', label: 'direct sales' },
-    problem:
-      "Field & Co, a local apparel brand, sold through marketplaces and lost up to 25% of every order to commission fees. The brand already had its own online store, but it looked like a generic template and didn't convey the quality of the clothes.",
-    solution:
-      "We designed the catalog and product page around large photography and a clear size grid. The first-draft catalog layout and product cards came together quickly from the brand's price list, then every spacing value, crop, and cart-state transition was checked by hand. Checkout went from five steps to two.",
-    result:
-      'Direct site sales grew 40% in the first quarter, as some buyers deliberately moved from marketplaces to the brand\'s own site. Checkout abandonment nearly halved after cutting the steps. The brand recouped the cost of the site within two months of marketplace-commission savings.',
-  },
-  {
     slug: 'aside',
-    index: '05',
+    index: '04',
     title: 'Aside',
     category: 'SaaS · AI Contract Review',
     tone: 'moss',
@@ -103,6 +85,24 @@ export const cases = [
       "The whole site borrows the grammar of an annotated document instead of a SaaS dashboard: a content column paired with a narrow margin column of tilted notes in the AI's own voice, a highlighter-style mark that sweeps across risky phrases on scroll or focus, and an interactive clause demo where hovering or tabbing through a real contract clause swaps in a matching note and risk tag. An AI agent drafted the section scaffolding and first-pass copy from a content outline; the designer built the document/margin-note grid, the highlight and clause-selection interactions, and hand-finished the accessibility work — every interactive mark is a real focusable button with aria-pressed state, not a hover-only effect.",
     result:
       "The result is a full seven-section site — hero, problem framing, an interactive how-it-works demo, four flagged clause categories, a philosophy section on where the tool stops, an audience split, and a contact form with file upload — built solo, with no template. Every interactive element (clause marks, reveal animations, file input) respects reduced-motion preferences and works from the keyboard alone. Like the others, it's a design case study rather than a live product — the site says so itself, in its own footer note.",
+  },
+  {
+    slug: 'field-and-co',
+    index: '05',
+    title: 'Field & Co',
+    category: 'E-commerce · Apparel',
+    tone: 'plum',
+    year: 2024,
+    duration: '12 days',
+    process: "Built a first draft of the catalog straight from the brand's price list, then refined every spacing value and cart state by hand.",
+    summary: 'A catalog and checkout that brought 40% of sales back from marketplaces.',
+    stat: { value: '+40%', label: 'direct sales' },
+    problem:
+      "Field & Co, a local apparel brand, sold through marketplaces and lost up to 25% of every order to commission fees. The brand already had its own online store, but it looked like a generic template and didn't convey the quality of the clothes.",
+    solution:
+      "We designed the catalog and product page around large photography and a clear size grid. The first-draft catalog layout and product cards came together quickly from the brand's price list, then every spacing value, crop, and cart-state transition was checked by hand. Checkout went from five steps to two.",
+    result:
+      'Direct site sales grew 40% in the first quarter, as some buyers deliberately moved from marketplaces to the brand\'s own site. Checkout abandonment nearly halved after cutting the steps. The brand recouped the cost of the site within two months of marketplace-commission savings.',
   },
   {
     slug: 'doclyne',
