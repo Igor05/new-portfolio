@@ -87,26 +87,8 @@ export const cases = [
       "The result is a full seven-section site — hero, problem framing, an interactive how-it-works demo, four flagged clause categories, a philosophy section on where the tool stops, an audience split, and a contact form with file upload — built solo, with no template. Every interactive element (clause marks, reveal animations, file input) respects reduced-motion preferences and works from the keyboard alone. Like the others, it's a design case study rather than a live product — the site says so itself, in its own footer note.",
   },
   {
-    slug: 'field-and-co',
-    index: '05',
-    title: 'Field & Co',
-    category: 'E-commerce · Apparel',
-    tone: 'plum',
-    year: 2024,
-    duration: '12 days',
-    process: "Built a first draft of the catalog straight from the brand's price list, then refined every spacing value and cart state by hand.",
-    summary: 'A catalog and checkout that brought 40% of sales back from marketplaces.',
-    stat: { value: '+40%', label: 'direct sales' },
-    problem:
-      "Field & Co, a local apparel brand, sold through marketplaces and lost up to 25% of every order to commission fees. The brand already had its own online store, but it looked like a generic template and didn't convey the quality of the clothes.",
-    solution:
-      "We designed the catalog and product page around large photography and a clear size grid. The first-draft catalog layout and product cards came together quickly from the brand's price list, then every spacing value, crop, and cart-state transition was checked by hand. Checkout went from five steps to two.",
-    result:
-      'Direct site sales grew 40% in the first quarter, as some buyers deliberately moved from marketplaces to the brand\'s own site. Checkout abandonment nearly halved after cutting the steps. The brand recouped the cost of the site within two months of marketplace-commission savings.',
-  },
-  {
     slug: 'doclyne',
-    index: '06',
+    index: '05',
     title: 'Doclyne',
     category: 'Healthtech · Doctor Booking',
     tone: 'clay',
@@ -121,6 +103,24 @@ export const cases = [
       'We designed a step-by-step doctor selection flow — specialty → area → time — instead of one long card feed. Structuring the data for 40+ doctors into a single format and drafting the initial profiles happened fast, which left room to work out the trust-building states — photos, credentials, reviews — written in plain language instead of medical boilerplate. Booking takes three steps and confirms right in the interface, no call to reception required.',
     result:
       'Completed bookings through the site rose 58% within two months of launch. Average time to choose a doctor dropped from 6 minutes to 90 seconds. The clinic was able to let go of one of its two phone-booking receptionists.',
+  },
+  {
+    slug: 'field-and-co',
+    index: '06',
+    title: 'Field & Co',
+    category: 'E-commerce · Apparel',
+    tone: 'plum',
+    year: 2024,
+    duration: '12 days',
+    process: "Built a first draft of the catalog straight from the brand's price list, then refined every spacing value and cart state by hand.",
+    summary: 'A catalog and checkout that brought 40% of sales back from marketplaces.',
+    stat: { value: '+40%', label: 'direct sales' },
+    problem:
+      "Field & Co, a local apparel brand, sold through marketplaces and lost up to 25% of every order to commission fees. The brand already had its own online store, but it looked like a generic template and didn't convey the quality of the clothes.",
+    solution:
+      "We designed the catalog and product page around large photography and a clear size grid. The first-draft catalog layout and product cards came together quickly from the brand's price list, then every spacing value, crop, and cart-state transition was checked by hand. Checkout went from five steps to two.",
+    result:
+      'Direct site sales grew 40% in the first quarter, as some buyers deliberately moved from marketplaces to the brand\'s own site. Checkout abandonment nearly halved after cutting the steps. The brand recouped the cost of the site within two months of marketplace-commission savings.',
   },
   {
     slug: 'birch-fund',
