@@ -129,22 +129,25 @@ export const cases = [
       'The result is a full eight-section site — hero, problem framing, an interactive four-stage split diagram, a phrase-preservation demo, a five-piece output gallery from one real recording, tiered pricing, FAQ, and a contact form with file upload — built solo, with no template. Every interactive element (the FAQ accordion, file input, in-page navigation) is keyboard-operable with a visible focus state, and all motion respects reduced-motion preferences. Like the others, it\'s a design case study rather than a live product — the site says so itself, in its own footer note.',
   },
   {
-    slug: 'birch-fund',
+    slug: 'afterhours',
     index: '07',
-    title: 'Birch Fund',
-    category: 'Nonprofit · Fundraising',
+    title: 'Afterhours',
+    category: 'SaaS · AI Program Review',
     tone: 'ochre',
-    year: 2023,
-    duration: '5 days',
-    process: 'Consolidated three years of scattered PDF reports into one format, then built the reporting page and donation form by hand.',
-    summary: 'A donation form that lifted giving conversion by 45%.',
-    stat: { value: '+45%', label: 'donation conversion' },
+    year: 2026,
+    duration: '6 days',
+    cover: '/cases/afterhours/cover.jpg',
+    detailImages: ['/cases/afterhours/the-stack.jpg', '/cases/afterhours/philosophy.jpg'],
+    process:
+      'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the client-switcher demo, the stacked-card motif, and hand-finished the accessibility work.',
+    summary: 'A stacked-card client switcher that makes AI program review feel like nightly triage, not an autopilot.',
+    stat: { value: '8', label: 'sections, fully responsive & accessible' },
     problem:
-      "Birch Fund, a nonprofit, took donations through a third-party service with its own branded page — donors weren't sure who they were actually paying, and some dropped off before completing a donation. The fund needed its own site with transparent reporting.",
+      "Afterhours reads what a trainer's clients logged that day and rewrites the affected training plans overnight — a pitch that fails immediately if it reads as auto-pilot programming, since trainers sell their judgment, not a template that adjusts itself. The site had to prove a fixed, visible boundary between what the tool changes on its own and what always waits for the trainer, or the pitch would sound like exactly the generic auto-progression software it's positioned against.",
     solution:
-      'We built a site with a donation form on the homepage and a reports section where the fund publishes where the money went each quarter. Consolidating three years of scattered PDF reports into one readable format happened fast, which left time to design the reporting page and donation form itself. Amount and frequency are chosen in two clicks, with no redirect to a third-party site.',
+      'The proof is a real switcher, not a claim: six real (composited) clients from one trainer\'s roster, each with a genuine log line and a one-sentence reason for that night\'s change, tabbed through with a stacked-card motif that visually implies the other twenty-eight sitting underneath. A dedicated section splits every possible adjustment into two fixed columns — what runs on its own versus what always waits for the trainer — so the boundary reads as structural, not a setting buried in an FAQ. An AI agent drafted the section scaffolding and first-pass copy from a content outline; the designer built the client-switcher interaction, the stacked-card depth effect, and hand-finished the accessibility work — the tab list uses real roving-tabindex keyboard behavior with arrow-key navigation, not just click handlers.',
     result:
-      "Completed-donation conversion rose 45% compared to the third-party service. Recurring monthly donations became a distinct, meaningful stream for the first time — that option hadn't existed before. The fund got a tool it can update itself, without needing a developer.",
+      "The result is a full eight-section site — hero, problem framing, an interactive six-client switcher, an automatic-versus-manual philosophy split, a before/after nightly-routine comparison, tiered pricing, FAQ, and a contact form with file upload — built solo, with no template. Every interactive element (the client tabs, FAQ accordion, file input) is keyboard-operable with a visible focus state, and all motion respects reduced-motion preferences. Like the others, it's a design case study rather than a live product — the site says so itself, in its own footer note.",
   },
 ]
 
