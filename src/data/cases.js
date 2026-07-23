@@ -108,22 +108,25 @@ export const cases = [
       "The result is a full six-section site — hero, an interactive annotated call transcript with scrubber, a division-of-labor breakdown, an audience-fit section, and a contact form with file upload — built solo, with no template. Every interactive element (scrubber marks, decision buttons, file input) is keyboard-operable with a visible focus state, and all motion respects reduced-motion preferences. Like the others, it's a design case study rather than a live product — the site says so itself, in its own footer note.",
   },
   {
-    slug: 'field-and-co',
+    slug: 'offshoot',
     index: '06',
-    title: 'Field & Co',
-    category: 'E-commerce · Apparel',
+    title: 'Offshoot',
+    category: 'SaaS · AI Content Repurposing',
     tone: 'plum',
-    year: 2024,
-    duration: '12 days',
-    process: "Built a first draft of the catalog straight from the brand's price list, then refined every spacing value and cart state by hand.",
-    summary: 'A catalog and checkout that brought 40% of sales back from marketplaces.',
-    stat: { value: '+40%', label: 'direct sales' },
+    year: 2026,
+    duration: '6 days',
+    cover: '/cases/offshoot/cover.jpg',
+    detailImages: ['/cases/offshoot/the-split.jpg', '/cases/offshoot/output.jpg'],
+    process:
+      'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the branching split-diagram and connector-line system, the phrase-tracking demo, and hand-finished the accessibility work.',
+    summary: 'A branching split-diagram that makes AI content repurposing feel like precise triage, not a paraphrase machine.',
+    stat: { value: '8', label: 'sections, fully responsive & accessible' },
     problem:
-      "Field & Co, a local apparel brand, sold through marketplaces and lost up to 25% of every order to commission fees. The brand already had its own online store, but it looked like a generic template and didn't convey the quality of the clothes.",
+      "Offshoot turns one coaching call or podcast recording into a week's worth of shorts, captions, carousels, and quote cards — a pitch that collapses the moment it reads like a generic summarizer, since the whole value is that the output still sounds like the person who recorded it, not a smoothed-over paraphrase. The site had to prove precision and voice-preservation visually, not just claim them, or it would read exactly like the generic AI tools it's positioned against.",
     solution:
-      "We designed the catalog and product page around large photography and a clear size grid. The first-draft catalog layout and product cards came together quickly from the brand's price list, then every spacing value, crop, and cart-state transition was checked by hand. Checkout went from five steps to two.",
+      "The mechanic is the layout: a branching diagram in the hero shows one recording forking into output formats before a visitor reads a word of copy, and \"The split\" section renders the actual four-stage pipeline — source, first cuts, platform formats, ready-to-post — as a real connected diagram with SVG lines linking parent to child, not a numbered list pretending to be one. The voice-preservation claim gets its own proof: a real quote from the source call, then the exact same phrase highlighted inline across three different repurposed formats, so the match is visible, not asserted. An AI agent drafted the section scaffolding and first-pass copy from a content outline; the designer built the branching diagram and connector-line system, the phrase-highlight demo, and hand-finished the accessibility work — the FAQ accordion uses real aria-expanded state, and every output tile keeps text contrast on top of the brand's acid-yellow accent.",
     result:
-      'Direct site sales grew 40% in the first quarter, as some buyers deliberately moved from marketplaces to the brand\'s own site. Checkout abandonment nearly halved after cutting the steps. The brand recouped the cost of the site within two months of marketplace-commission savings.',
+      'The result is a full eight-section site — hero, problem framing, an interactive four-stage split diagram, a phrase-preservation demo, a five-piece output gallery from one real recording, tiered pricing, FAQ, and a contact form with file upload — built solo, with no template. Every interactive element (the FAQ accordion, file input, in-page navigation) is keyboard-operable with a visible focus state, and all motion respects reduced-motion preferences. Like the others, it\'s a design case study rather than a live product — the site says so itself, in its own footer note.',
   },
   {
     slug: 'birch-fund',
