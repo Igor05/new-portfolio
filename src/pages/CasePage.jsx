@@ -25,6 +25,7 @@ export default function CasePage() {
   }
 
   const currentPos = cases.findIndex((c) => c.slug === slug)
+  const prev = cases[(currentPos - 1 + cases.length) % cases.length]
   const next = cases[(currentPos + 1) % cases.length]
 
   return (
@@ -97,14 +98,25 @@ export default function CasePage() {
         />
       </div>
 
-      <div className="mt-14 border-t border-line pt-8">
-        <p className="text-sm text-ink-soft">Next case</p>
-        <Link
-          to={`/cases/${next.slug}`}
-          className="mt-2 inline-block font-serif text-2xl text-ink transition-colors duration-150 hover:text-ink-soft sm:text-3xl"
-        >
-          {next.title} →
-        </Link>
+      <div className="mt-14 grid grid-cols-1 gap-8 border-t border-line pt-8 sm:grid-cols-2">
+        <div>
+          <p className="text-sm text-ink-soft">Previous case</p>
+          <Link
+            to={`/cases/${prev.slug}`}
+            className="mt-2 inline-block font-serif text-2xl text-ink transition-colors duration-150 hover:text-ink-soft sm:text-3xl"
+          >
+            ← {prev.title}
+          </Link>
+        </div>
+        <div className="sm:text-right">
+          <p className="text-sm text-ink-soft">Next case</p>
+          <Link
+            to={`/cases/${next.slug}`}
+            className="mt-2 inline-block font-serif text-2xl text-ink transition-colors duration-150 hover:text-ink-soft sm:text-3xl"
+          >
+            {next.title} →
+          </Link>
+        </div>
       </div>
     </article>
   )
