@@ -18,7 +18,7 @@ function ScrollManager() {
         return
       }
     }
-    window.scrollTo(0, 0)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [pathname, hash])
 
   return null
