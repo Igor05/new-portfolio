@@ -15,9 +15,9 @@ export default function Header() {
         </Link>
         <nav aria-label="Main navigation" className="flex gap-5 text-sm text-ink-soft sm:gap-8">
           {NAV.map((item) => (
-            <a key={item.href} href={item.href} className="transition-colors duration-150 hover:text-ink">
+            <Link key={item.href} to={item.href} className="transition-colors duration-150 hover:text-ink">
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
       </div>
