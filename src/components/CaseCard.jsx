@@ -1,13 +1,25 @@
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import CaseImage from './CaseImage'
 import { TONE_BG } from '../data/tones'
 
-export default function CaseCard({ item }) {
+const MotionLink = motion.create(Link)
+
+export default function CaseCard({ item, index = 0 }) {
   return (
-    <Link
+    <MotionLink
       to={`/cases/${item.slug}`}
       aria-label={`Case ${item.index}: ${item.title}, ${item.category}`}
       className="group flex border border-line bg-card transition-colors duration-150 hover:border-ink"
+      initial={{ opacity: 0, y: 16 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: (index % 3) * 0.06 }}
+      whileHover={{
+        y: -3,
+        boxShadow: '0 10px 24px -12px rgba(27, 28, 30, 0.28)',
+        transition: { duration: 0.2, ease: 'easeOut' },
+      }}
     >
       <div className="flex w-12 shrink-0 flex-col justify-between border-r border-line p-2.5 sm:w-14 sm:p-3">
         <span className="font-serif text-sm text-ink-soft">{item.index}</span>
@@ -39,6 +51,6 @@ export default function CaseCard({ item }) {
           </div>
         </div>
       </div>
-    </Link>
+    </MotionLink>
   )
 }

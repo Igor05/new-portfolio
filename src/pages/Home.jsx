@@ -23,8 +23,8 @@ export default function Home() {
             <p className="text-sm text-ink-soft">{cases.length} projects</p>
           </div>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {cases.map((item) => (
-              <CaseCard key={item.slug} item={item} />
+            {cases.map((item, index) => (
+              <CaseCard key={item.slug} item={item} index={index} />
             ))}
           </div>
         </div>
