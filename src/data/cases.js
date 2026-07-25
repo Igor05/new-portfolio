@@ -12,6 +12,7 @@ export const cases = [
     duration: '6 days',
     cover: '/cases/chit/cover.jpg',
     detailImages: ['/cases/chit/examples.jpg', '/cases/chit/pricing.jpg'],
+    liveUrl: 'https://chit-ten.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the ticket visual system, tuned every interaction, and hand-finished the accessibility work.',
     summary: 'A landing page that makes an AI-writes-your-replies pitch feel trustworthy, not gimmicky.',
@@ -33,6 +34,7 @@ export const cases = [
     duration: '5 days',
     cover: '/cases/docket/cover.jpg',
     detailImages: ['/cases/docket/docket-log.jpg', '/cases/docket/pricing.jpg'],
+    liveUrl: 'https://docket-ten-rho.vercel.app',
     process:
       "An AI agent drafted the section scaffolding and first-pass copy from a content outline, reusing the previous case's hero/problem/feature-grid/CTA template with a new palette. A design review flagged that reuse directly; the designer rebuilt the composition around the product's own change-tracking mechanic, built the diff-gutter and publish-rule toggle interactions, moved the palette to a dark terminal theme with real git-diff colors once the structure was settled, then replaced the last un-rebuilt piece — a stock three-card pricing grid — with a live calculator, and hand-finished the accessibility work.",
     summary: 'A site where the layout itself argues the pitch — the whole page reads as one continuous diff.',
@@ -54,6 +56,7 @@ export const cases = [
     duration: '7 days',
     cover: '/cases/nightdesk/cover.jpg',
     detailImages: ['/cases/nightdesk/night-log.jpg', '/cases/nightdesk/pricing.jpg'],
+    liveUrl: 'https://nightdesk-iota.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the ticket-log and auto-send toggle interactions, tuned the type system, and hand-finished the accessibility work.',
     summary: 'A dark, monospace-driven site that makes overnight AI ticket triage feel controllable, not automatic.',
@@ -75,6 +78,7 @@ export const cases = [
     duration: '8 days',
     cover: '/cases/aside/cover.jpg',
     detailImages: ['/cases/aside/how-it-works.jpg', '/cases/aside/risk-categories.jpg'],
+    liveUrl: 'https://aside-igorworks.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the document/margin-note grid, the clause-highlighting interactions, and hand-finished the accessibility work.',
     summary: 'A margin-notes layout that makes AI contract review feel like a second pair of eyes, not a disclaimer generator.',
@@ -96,6 +100,7 @@ export const cases = [
     duration: '6 days',
     cover: '/cases/verbatim/cover.jpg',
     detailImages: ['/cases/verbatim/the-call.jpg', '/cases/verbatim/division-of-labor.jpg'],
+    liveUrl: 'https://verbatim-kappa.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the dual-track transcript layout, the scrubber and decision-logging interactions, and hand-finished the accessibility work.',
     summary: 'A dual-track transcript layout that makes an AI call-screener feel like a second reader, not a decision-maker.',
@@ -117,6 +122,7 @@ export const cases = [
     duration: '6 days',
     cover: '/cases/offshoot/cover.jpg',
     detailImages: ['/cases/offshoot/the-split.jpg', '/cases/offshoot/output.jpg'],
+    liveUrl: 'https://offshoot.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the branching split-diagram and connector-line system, the phrase-tracking demo, and hand-finished the accessibility work.',
     summary: 'A branching split-diagram that makes AI content repurposing feel like precise triage, not a paraphrase machine.',
@@ -138,6 +144,7 @@ export const cases = [
     duration: '6 days',
     cover: '/cases/afterhours/cover.jpg',
     detailImages: ['/cases/afterhours/the-stack.jpg', '/cases/afterhours/philosophy.jpg'],
+    liveUrl: 'https://afterhours-murex.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the client-switcher demo, the stacked-card motif, and hand-finished the accessibility work.',
     summary: 'A stacked-card client switcher that makes AI program review feel like nightly triage, not an autopilot.',

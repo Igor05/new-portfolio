@@ -41,6 +41,16 @@ export default function CasePage() {
             {item.index} · {item.category} · {item.year}
           </p>
           <h1 className="mt-2 font-serif text-4xl leading-tight text-ink sm:text-5xl">{item.title}</h1>
+          {item.liveUrl && (
+            <a
+              href={item.liveUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-3 inline-block text-sm text-ink underline underline-offset-4 transition-colors duration-150 hover:text-ink-soft"
+            >
+              See it live ↗
+            </a>
+          )}
         </div>
       </header>
 
