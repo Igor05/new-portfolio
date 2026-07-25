@@ -15,7 +15,8 @@ export const cases = [
     liveUrl: 'https://chit-ten.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the ticket visual system, tuned every interaction, and hand-finished the accessibility work.',
-    summary: 'A landing page that makes an AI-writes-your-replies pitch feel trustworthy, not gimmicky.',
+    summary:
+      "Real review-and-reply pairs printed as order tickets, draft time and voice tag included, so visitors judge the writing themselves — not Chit's word for it.",
     stat: { value: '9', label: 'sections, fully responsive & accessible' },
     problem:
       'Chit drafts review replies for restaurants and hotels — an easy pitch in theory, a hard one in practice, since most owners\' first reaction to "AI writes your replies" is distrust. The site needed to prove the output was actually good, not just claim it, and explain a fairly novel workflow — connect, calibrate to your voice, approve or auto-send — without collapsing into a wall of feature bullets.',
@@ -59,7 +60,7 @@ export const cases = [
     liveUrl: 'https://nightdesk-iota.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the ticket-log and auto-send toggle interactions, tuned the type system, and hand-finished the accessibility work.',
-    summary: 'A dark, monospace-driven site that makes overnight AI ticket triage feel controllable, not automatic.',
+    summary: 'Would you let an AI answer customers while you sleep? Only if nothing sends without your say-so.',
     stat: { value: '8', label: 'sections, fully responsive & accessible' },
     problem:
       "Nightdesk triages Shopify support tickets overnight and drafts replies before the store opens — a pitch that only works if the owner trusts it not to go rogue. The real design problem wasn't explaining what the AI does; it was proving, visually and immediately, that nothing gets sent without permission. A dense, data-heavy product like this also risked reading as a generic dark-mode SaaS dashboard instead of something built for one specific, sleep-deprived audience.",
@@ -73,7 +74,7 @@ export const cases = [
     index: '04',
     title: 'Aside',
     category: 'SaaS · AI Contract Review',
-    tone: 'moss',
+    tone: 'indigo',
     year: 2026,
     duration: '8 days',
     cover: '/cases/aside/cover.jpg',
@@ -81,7 +82,8 @@ export const cases = [
     liveUrl: 'https://aside-igorworks.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the document/margin-note grid, the clause-highlighting interactions, and hand-finished the accessibility work.',
-    summary: 'A margin-notes layout that makes AI contract review feel like a second pair of eyes, not a disclaimer generator.',
+    summary:
+      "Aside's margin notes tilt like something pinned by hand, each one matched to a highlighted clause and a risk tag — not a wall of disclaimer text.",
     stat: { value: '7', label: 'sections, fully responsive & accessible' },
     problem:
       "Aside reads freelance contracts and flags the clauses that quietly cost solo freelancers money — a pitch that lives or dies on whether the flagged language actually reads as useful, not as a generic legal-disclaimer wall of text. The design problem was structural: a product about reading contracts closely couldn't just describe that idea in a normal feature-grid layout, or the site would undercut its own pitch before a visitor read a word of it.",
@@ -103,7 +105,8 @@ export const cases = [
     liveUrl: 'https://verbatim-kappa.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the dual-track transcript layout, the scrubber and decision-logging interactions, and hand-finished the accessibility work.',
-    summary: 'A dual-track transcript layout that makes an AI call-screener feel like a second reader, not a decision-maker.',
+    summary:
+      "Two tracks, one page — Verbatim's read on the left, the hiring call on the right, and the AI never crosses into yours.",
     stat: { value: '6', label: 'sections, fully responsive & accessible' },
     problem:
       "Verbatim reads a candidate's résumé against their screening-call recording and flags what lines up and what doesn't — a pitch that collapses instantly if it reads as the AI quietly ranking or rejecting people. Recruiting agencies pitch clients on judgment, not automation, so the site had to prove one structural fact before anything else: the tool never sees or touches the hire/no-hire decision, and the recruiter's own reasoning stays entirely separate from the AI's.",
@@ -125,7 +128,8 @@ export const cases = [
     liveUrl: 'https://offshoot.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the branching split-diagram and connector-line system, the phrase-tracking demo, and hand-finished the accessibility work.',
-    summary: 'A branching split-diagram that makes AI content repurposing feel like precise triage, not a paraphrase machine.',
+    summary:
+      'The hero shows one recording forking into eight formats before a single word of copy loads — the pitch is the diagram, not a claim above it.',
     stat: { value: '8', label: 'sections, fully responsive & accessible' },
     problem:
       "Offshoot turns one coaching call or podcast recording into a week's worth of shorts, captions, carousels, and quote cards — a pitch that collapses the moment it reads like a generic summarizer, since the whole value is that the output still sounds like the person who recorded it, not a smoothed-over paraphrase. The site had to prove precision and voice-preservation visually, not just claim them, or it would read exactly like the generic AI tools it's positioned against.",
@@ -139,7 +143,7 @@ export const cases = [
     index: '07',
     title: 'Afterhours',
     category: 'SaaS · AI Program Review',
-    tone: 'ochre',
+    tone: 'teal',
     year: 2026,
     duration: '6 days',
     cover: '/cases/afterhours/cover.jpg',
@@ -147,7 +151,8 @@ export const cases = [
     liveUrl: 'https://afterhours-murex.vercel.app',
     process:
       'An AI agent drafted the section scaffolding and first-pass copy from a content outline. The designer built the client-switcher demo, the stacked-card motif, and hand-finished the accessibility work.',
-    summary: 'A stacked-card client switcher that makes AI program review feel like nightly triage, not an autopilot.',
+    summary:
+      'Six real clients, six different reasons for a change, one fixed rule underneath: Afterhours drafts it, the trainer still decides.',
     stat: { value: '8', label: 'sections, fully responsive & accessible' },
     problem:
       "Afterhours reads what a trainer's clients logged that day and rewrites the affected training plans overnight — a pitch that fails immediately if it reads as auto-pilot programming, since trainers sell their judgment, not a template that adjusts itself. The site had to prove a fixed, visible boundary between what the tool changes on its own and what always waits for the trainer, or the pitch would sound like exactly the generic auto-progression software it's positioned against.",

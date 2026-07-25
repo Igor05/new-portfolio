@@ -5,4 +5,6 @@ export const TONE_BG = {
   ochre: 'bg-ochre',
   plum: 'bg-plum',
   rust: 'bg-rust',
+  teal: 'bg-teal',
+  indigo: 'bg-indigo',
 }
