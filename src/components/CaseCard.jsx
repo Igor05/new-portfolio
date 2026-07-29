@@ -32,7 +32,7 @@ export default function CaseCard({ item, index = 0 }) {
           alt={`${item.title} — website cover`}
           index={item.index}
           tone={item.tone}
-          aspect="h-44 sm:h-40 lg:h-44"
+          aspect="h-[clamp(9rem,calc(66.7vw_-_55px),24rem)] sm:h-[clamp(8rem,calc(33.3vw_-_61px),18rem)] lg:h-[clamp(10rem,calc(21.75vw_-_58px),12rem)]"
           fit="cover"
           className="border-b border-line"
         />
